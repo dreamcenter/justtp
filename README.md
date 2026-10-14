@@ -1,25 +1,14 @@
 
-Installation information
+JustTp
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+A simple mod that adds a tp command, which can tp players.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+一个简单的模组，添加了一个tp命令，可以将玩家传送到其他玩家身边。
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+| Command         | Description                | 描述               |
+|-----------------|----------------------------|--------------------|
+| /tpa \<player\> | Request a tp from a player | 请求传送到玩家身边 |
+| /tpaccept       | Accept the tp request      | 接受传送到玩家身边 |
+| /tpdeny         | Deny the tp request        | 拒绝传送到玩家身边 |
